@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family: roboto;
+    position: relative;
+    text-decoration: none;
+  }
+.topo{
+    background-color: #1CD1B0;
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .topo2{
+    background-color: #00669F;
+    display: flex;
+    align-items: center;
+  }
+  .container{
+    padding: 230px 385px 315px 410px;
+}
+.caixa-registro{
+    width:620px;
+    height: 575px;
+}
+.formulario{
+    text-align: center;
+}
+input{
+    display: block;
+    width:620px;
+    height: 60px;
+    margin: 20px 0;
+}
+.botoes{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0 20px;
+}
+.botao{
+    width: 300px;
+    height: 55px;
+    border-radius: 25px;
+}
+.botao-limpar{
+    background-color: #888888;
+}
+.botao-entrar{
+    background-color: #1CD1B0;
+}
+
+  footer{
+    height: 51px;
+    width: 100%;
+    background-color: #00669F;
+    color: white;
+    position: absolute; 
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
