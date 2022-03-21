@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-family: roboto;
+}
+.oferta{
+    padding-left: 90px;
+}
+.topo-direita{
+    padding-right: 25px;
+    position: relative;
+}
+.topo-1{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    height: 20px;
+    background-color: black;
+    color:white;
+    
+}
+.topo-2{
+   background-color: #F0A83E;
+   width: 100%;
+   height: 62px;
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   
+}
+.img-logo{
+    height: 23px;
+    width: 166px;
+    padding-left: 50px;
+}
+li{
+    display: inline;
+    padding: 0 25px;
+}
+.banner{
+    background-image: url(../image/img-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: flex-end;
+}
+.textos{
+    align-self: center;
+    text-align: center;
+    width: 365;
+    height: 145px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.texto-banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    font-size: 30px;
+    background-color: white;
+    width: 365px;
+    height: 54px;
+    margin-right: 12px;
+}
+.botao-comedor{
+    width: 141px;
+    height: 49px;
+    align-self: center;
+    background-color: #F0A83E;
+    color: white;
+}
+.main-container{
+    width:1024px;
+    text-align: center;
+    margin-top: 25px;
+}
+.pata-produto{
+    width: 100%;
+    margin: 0 auto;
+}
+h1.titulo{
+    margin-bottom: 20px;;
+}
+.produtos{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    margin: 0 auto;
+}
+.preco{
+    color:#F0A83E;
+}
+.form-contato{
+    text-align: center;
+    padding-top: 80px;
+}
+
+input{
+    width: 340px;
+    height: 40px;
+    border-radius: 15px;
+    padding-left: 15px;
+    background-color: #3C2313;
+    color: white;
+    margin-bottom: 10px;
+}
+.botao{
+    width: 110px;
+    height: 34px;
+    border-radius: 15px;
+    color: white;
+}
+.botao-limpar{
+    background-color: #8A8787;
+}
+.botao-enviar{
+    background-color: #F0A83E;
+}
+.rodape-1{
+    margin-top: 80px;
+    background-color: #F0A83E;
+    height: 60px;
+    padding: 00 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.rodape-1-1{
+    display: flex;
+    align-items: center;
+}
+.botao-enviar2{
+    background-color: #3C2313;
+}
+.rodape-2{
+    height: 284px;
+    background-color: #3C2313;
+    display: flex;
+}
+.rodape2-2{
+    display: flex;
+    flex-direction: column;
+}
