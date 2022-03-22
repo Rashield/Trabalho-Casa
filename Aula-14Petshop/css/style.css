@@ -101,7 +101,7 @@ h1.titulo{
     padding-top: 80px;
 }
 
-input{
+.input-form{
     width: 340px;
     height: 40px;
     border-radius: 15px;
@@ -126,7 +126,7 @@ input{
     margin-top: 80px;
     background-color: #F0A83E;
     height: 60px;
-    padding: 00 30px;
+    padding: 10px 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -134,16 +134,67 @@ input{
 .rodape-1-1{
     display: flex;
     align-items: center;
+    color: white;
+}
+.img-rodape-1{
+margin-right: 10px;
+}
+.input-rodape{
+    width: 271px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: white;
+    color: white;
+    padding-left: 15px;
 }
 .botao-enviar2{
     background-color: #3C2313;
+    width: 70px;
+    height: 40px;
 }
 .rodape-2{
     height: 284px;
     background-color: #3C2313;
     display: flex;
+    padding: 0 75px 25px 0;
+    justify-content: space-between;
 }
 .rodape2-2{
     display: flex;
     flex-direction: column;
+}
+.rodape2-2-1{
+    display: flex;
+    margin: 27px 30px 0px 75px;
+}
+.texto{
+    color: white;
+    margin-left: 30px;
+}
+.logo-rodape{
+    height: 23px;
+    width: 170px;
+    align-self: center;
+}
+.rodape-3{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+@media (max-width:425px){
+    .topo-1{
+        display: none;
+    }
+    .main-container{
+        width:425px;
+    }
+    .produtos{
+        display: block;
+        width: 425px;
+    }
+    .rodape-1{
+        display: block;
+        height:100px;
+    }
 }
