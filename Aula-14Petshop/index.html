@@ -67,9 +67,9 @@
         <div class="form-contato">
             <h2>Contato</h2>
             <form action="" class="formulario">
-                <p><input type="text" placeholder="Nome e Sobrenome"></p>
-                <p><input type="e-mail" name="" id="" placeholder="E-mail"></p>
-                <p><input type="tel" placeholder="Telefone"></p>
+                <p><input type="text" placeholder="Nome e Sobrenome" class="input-form"></p>
+                <p><input type="e-mail" name="" id="" placeholder="E-mail" class="input-form"></p>
+                <p><input type="tel" placeholder="Telefone" class="input-form"></p>
                 <button type="reset" class="botao botao-limpar">Limpar</button>
                 <button type="submit" class="botao botao-enviar">Enviar</button>
             </form>
@@ -78,22 +78,43 @@
     <footer>
       <div class="rodape-1">
         <div class="rodape-1-1">
-            <img src="./image/mail.png" alt="">
+            <img src="./image/mail.png" alt="" class="img-rodape-1">
             <span>Inscreva-se para mais novidades</span>
         </div>
         <form action="" class="inscricao">
-            <input type="e-mail" placeholder="Informe seu e-mail">
+            <input type="e-mail" placeholder="Informe seu e-mail" class="input-rodape">
             <button type="submit" class="botao botao-enviar2">Enviar</button>
         </form>
       </div>
       <div class="rodape-2">
         <div class="rodape2-2">
-            <img src="./image/Location.png" alt="">
-            <img src="./image/Phone.png" alt="">
-            <img src="./image/Correo.png" alt="">
+            <div class="rodape2-2-1">
+                <img src="./image/local.png" alt="">
+                <div class="texto">
+                    <h3>Localização</h3>
+                    <p>São Paulo</p>
+                </div>   
+            </div>
+            <div class="rodape2-2-1">
+                <img src="./image/Fone.png" alt="">
+                <div class="texto">
+                    <h3>Telefone</h3>
+                    <p>15-111-111-111</p>
+                </div>   
+            </div>
+            <div class="rodape2-2-1">
+                <img src="./image/Email.png" alt="">
+                <div class="texto">
+                    <h3>Email</h3>
+                    <p>Email</p>
+                </div>   
+            </div>
         </div>
+        <img src="./image/logorodape.png" alt="" class="logo-rodape">
       </div>
-      <div class="rodape-3"></div>
+      <div class="rodape-3">
+          <p>Todos os direitos reservados a FRONT END I</p>
+      </div>
     </footer>
   </body>
 </html>
