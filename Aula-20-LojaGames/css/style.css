@@ -62,8 +62,9 @@ h2{
 }
 .produtos{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 20px 90px;
+    flex-wrap: wrap;
 }
 .card-produto{
     width: 265px;
@@ -104,10 +105,12 @@ p{
     display: flex;
     justify-content: space-between;
     margin: 27px 95px 80px;
+    flex-wrap: wrap;
 }
 .prod-destaque{
     width:360px;
     height: 135px;
+    margin-bottom: 15px;
 }
 .banner1{
     background-image: url("../image/banner1.png");
