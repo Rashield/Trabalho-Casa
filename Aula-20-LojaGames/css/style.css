@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+header.container{
+    width:100vw;
+    height:100px;
+    background-color: #222222;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+.barra-nav{
+    display: flex;
+}
+ul{
+    margin-right: 30px;
+}
+li{
+    display: inline;
+    color:white;
+    margin-right: 12px;
+}
+.banner{
+    width:100vw;
+    height:512px;
+    background-image: url("../image/img-back-banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+h1{
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0 128px;
+    text-align: center;
+}
+.botao-comprar{
+    width: 220px;
+    height: 60px;
+    background-color: #D01418;
+    color: white;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+}
+.produtos{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 90px;
+}
+.card-produto{
+    width: 265px;
+    height: 320px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    margin-bottom: 80px;
+}
+.img-jogo{
+    align-self: center;
+    margin-bottom: 50px;
+}
+.preco{
+    width:265px;
+    height: 100px;
+    display: flex;
+    padding-left: 20px;
+}
+p{
+    font-weight: 400;
+}
+.p1{
+    font-size: 20px;
+}
+.p2{
+    font-size: 13px;
+}
+.p3{
+    font-size: 10px;
+    color:#619D00;
+}
+.precos{
+    align-self: center;
+}
+.destaques{
+    display: flex;
+    justify-content: space-between;
+    margin: 27px 95px 80px;
+}
+.prod-destaque{
+    width:360px;
+    height: 135px;
+}
+.banner1{
+    background-image: url("../image/banner1.png");
+}
+.banner2{
+    background-image: url("../image/banner2.png");
+}
+.footer-container{
+    background-color: #222222;
+    width: 100vw;
+    height: 215px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+    font-size: 25px;
+    color: white;
+    font-weight: 400;
+}
+.social-media{
+    width: 200px;
+    text-align: center;
+}
+.img-social-media{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width:420px){
+    .produtos{
+        flex-direction: column;
+    }
+    .destaques{
+        flex-direction: column;
+        align-items: center;
+    }
+    .prod-destaque{
+        width:290px;
+        height: 110px;
+        margin-bottom: 30px;
+    }
+    .footer-container{
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
